@@ -1,0 +1,584 @@
+@charset "UTF-8";
+html,body,div,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,a
+    {
+        /* 将原有的外边距和内边距改成0  */
+        margin:0;
+        padding:0;
+    }
+    body{    
+        /* 字体名微软雅黑  宋体 */
+        font:  "Helvetica Neue",Helvetica,Arial,sans-serif ,SimSun,"Microsoft YaHei";
+        /* margin: 0 auto; */
+        /* 相对定位：相对自己的当前位置   设置了相对定位之后，标签的css就可以设置left、right、top、bottom的css属性 */
+        /* position: relative; */
+        /* 剧中 */
+        /* width: 100PX; */
+        background-image: url(webphoto/beijing01.jpg); 
+        /* 平铺方式不平埔 */
+        /* background-repeat: no-repeat;  */
+        /* 通过%控制图片在父元素的什么位置：左右中间  上先上 */
+        /* background-position: 50% 25%;  */
+        /* 把背景图像扩展至足够大，以使背景图像完全覆盖背景区域。背景图像的某些部分也许无法显示在背景定位区域中。 */
+        background-size: cover;  
+        /* 绝对定位:上下左右都为0时就时将元素布局到全屏 */
+        position:absolute;
+        /* 左 */
+        left: 0;
+        /* 右 */
+        right: 0;
+        /* 上 */
+        top: 0;
+        /* 下 */
+        bottom:0;
+        /* 左右为定位为0时设置高度,将在最上面左右铺满网页,上下高度未设置的固定高度 */
+        /* height: 200px; */
+        background-color: aqua;
+    }
+    .ajk{
+        height: 670px;
+        width: 1320px;
+        /* border: 1px solid darkblue;                          */
+        /* 触发dfc属性 如果父容器设置rekative后，那么他的子元素如果设置了absolute定位，那么它的子元素就按照父容器进行定位*/
+        position: relative;
+        margin: 0 auto;
+        }
+    .logo{
+        width: 200px;
+        height: 200px;
+        /* 绝对定位：父容器有bfc特性的绝对与他的位置，否则就绝对与body标签   设置了相对定位之后，标签的css就可以设置left、right、top、bottom的css属性 */
+        /* 子绝对定位（要根据谁进行绝对定位，那么把谁设置为relatvie定位） */
+        /* 子绝父相 */
+        position:absolute;
+        /* 距原来的左边 */
+        left:40px;
+        /* 距原来的上边 */
+        top:30px;
+        /* border: 1px solid darkblue; */
+        }
+    .cd{
+        width: 200px;
+        height: 200px;
+        /* 绝对定位：父容器有bfc特性的绝对与他的位置，否则就绝对与body标签   设置了相对定位之后，标签的css就可以设置left、right、top、bottom的css属性 */
+        /* 子绝对定位（要根据谁进行绝对定位，那么把谁设置为relatvie定位） */
+        /* 子绝父相 */
+        position:absolute;
+        /* 距原来的左边 */
+        left:50px;
+        /* 距原来的上边 */
+        top:200px;
+        /* border: 1px solid darkblue;              */
+    }
+    .logo{
+        opacity: 0.5;
+        /* 设置成行内块：就可以设置高和宽度了 */
+        display: inline-block;
+        height: 80px;
+        width: 140px;
+        /* 行高和高度设置一样上下就剧中了 */
+        line-height: 200px;
+        background-image: url(webphoto/beijing0101.png);
+        /* 不平埔只显示一个 */
+        /* 背景图片默认左上角对齐 */
+        background-repeat: no-repeat;
+           /* 背景图片左下对齐 */
+     /* background-position: left bottom; */
+     /* 背景图片右下对齐 */
+     /* background-position: right bottom; */
+     /* 背景图片上中对齐 */
+     /* background-position: center top; */
+     /* 背景图片中的中间对齐 */
+     /* background-position: center center; */
+        /* 将文字离左边给图片让出地方 */
+        padding-left: 32px;
+        background-position: -90px -71px;
+
+    }
+    /* 鼠标移动上后 */
+    .logo:hover{ 
+        opacity: 1;
+        /* 背景图片左边对齐 */
+     /* background-position: left bottom; */
+       /* 背景图片xy轴%比对齐 */
+      /* background-position: 0% 6.8%;  */
+      /* 通过xy坐标控制 */
+      background-position: -263px -68px;
+
+    }
+    .aj01{
+        opacity: 0.5;
+        /* 设置成行内块：就可以设置高和宽度了 */
+        display: inline-block;
+        height: 86px;
+        width: 120px;
+        /* 行高和高度设置一样上下就剧中了 */
+        line-height: 200px;
+        background-image: url(webphoto/beijing0101.png);
+        /* 不平埔只显示一个 */
+        /* 背景图片默认左上角对齐 */
+        background-repeat: no-repeat;
+           /* 背景图片左下对齐 */
+     /* background-position: left bottom; */
+     /* 背景图片右下对齐 */
+     /* background-position: right bottom; */
+     /* 背景图片上中对齐 */
+     /* background-position: center top; */
+     /* 背景图片中的中间对齐 */
+     /* background-position: center center; */
+        /* 将文字离左边给图片让出地方 */
+        padding-left: 32px;
+        background-position: -88px -174px;
+        /* border: 1px solid darkblue; */
+       /* border: 1px solid darkgreen */
+    }
+    /* 鼠标移动上后 */
+    .aj01:hover{
+        opacity: 1;
+        /* 背景图片左边对齐 */
+     /* background-position: left bottom; */
+       /* 背景图片xy轴%比对齐 */
+      /* background-position: 0% 6.8%;  */
+      /* 通过xy坐标控制 */
+      background-position: -88px -269px;
+
+    }
+    .aj02{
+        opacity: 0.5;
+        position:absolute;
+        /* 距原来的左边 */
+        left:150px;
+        /* 距原来的上边 */
+        top:0px;
+        
+        /* 设置成行内块：就可以设置高和宽度了 */
+        display: inline-block;
+        height: 86px;
+        width: 120px;
+        /* 行高和高度设置一样上下就剧中了 */
+        line-height: 200px;
+        background-image: url(webphoto/beijing0101.png);
+        /* 不平埔只显示一个 */
+        /* 背景图片默认左上角对齐 */
+        background-repeat: no-repeat;
+           /* 背景图片左下对齐 */
+     /* background-position: left bottom; */
+     /* 背景图片右下对齐 */
+     /* background-position: right bottom; */
+     /* 背景图片上中对齐 */
+     /* background-position: center top; */
+     /* 背景图片中的中间对齐 */
+     /* background-position: center center; */
+        /* 将文字离左边给图片让出地方 */
+        padding-left: 32px;
+        background-position: -253px -174px;
+        /* border: 1px solid darkblue; */
+    }
+    /* 鼠标移动上后 */
+    .aj02:hover{
+        opacity: 1;
+        /* 背景图片左边对齐 */
+     /* background-position: left bottom; */
+       /* 背景图片xy轴%比对齐 */
+      /* background-position: 0% 6.8%;  */
+      /* 通过xy坐标控制 */
+      background-position: -253px -268px;
+
+    }
+    .aj03{
+        opacity: 0.5;
+        position:absolute;
+        /* 距原来的左边 */
+        left:300px;
+        /* 距原来的上边 */
+        top:0px;
+        
+        /* 设置成行内块：就可以设置高和宽度了 */
+        display: inline-block;
+        height: 86px;
+        width: 120px;
+        /* 行高和高度设置一样上下就剧中了 */
+        line-height: 200px;
+        background-image: url(webphoto/beijing0101.png);
+        /* 不平埔只显示一个 */
+        /* 背景图片默认左上角对齐 */
+        background-repeat: no-repeat;
+           /* 背景图片左下对齐 */
+     /* background-position: left bottom; */
+     /* 背景图片右下对齐 */
+     /* background-position: right bottom; */
+     /* 背景图片上中对齐 */
+     /* background-position: center top; */
+     /* 背景图片中的中间对齐 */
+     /* background-position: center center; */
+        /* 将文字离左边给图片让出地方 */
+        padding-left: 32px;
+        background-position: -420px -173px;
+        /* border: 1px solid darkblue; */
+    }
+    /* 鼠标移动上后 */
+    .aj03:hover{
+        opacity: 1;
+        /* 背景图片左边对齐 */
+     /* background-position: left bottom; */
+       /* 背景图片xy轴%比对齐 */
+      /* background-position: 0% 6.8%;  */
+      /* 通过xy坐标控制 */
+      background-position: -420px -268px;
+
+    }
+    .aj04{
+        opacity: 0.5;
+        position:absolute;
+        /* 距原来的左边 */
+        left:450px;
+        /* 距原来的上边 */
+        top:0px;
+        
+        /* 设置成行内块：就可以设置高和宽度了 */
+        display: inline-block;
+        height: 86px;
+        width: 120px;
+        /* 行高和高度设置一样上下就剧中了 */
+        line-height: 200px;
+        background-image: url(webphoto/beijing0101.png);
+        /* 不平埔只显示一个 */
+        /* 背景图片默认左上角对齐 */
+        background-repeat: no-repeat;
+           /* 背景图片左下对齐 */
+     /* background-position: left bottom; */
+     /* 背景图片右下对齐 */
+     /* background-position: right bottom; */
+     /* 背景图片上中对齐 */
+     /* background-position: center top; */
+     /* 背景图片中的中间对齐 */
+     /* background-position: center center; */
+        /* 将文字离左边给图片让出地方 */
+        padding-left: 32px;
+        background-position: -583px -175px;
+        /* border: 1px solid darkblue; */
+    }
+    /* 鼠标移动上后 */
+    .aj04:hover{
+        opacity: 1;
+        /* 背景图片左边对齐 */
+     /* background-position: left bottom; */
+       /* 背景图片xy轴%比对齐 */
+      /* background-position: 0% 6.8%;  */
+      /* 通过xy坐标控制 */
+      background-position: -583px -269px;
+
+    }
+    .aj05{
+        opacity: 0.5;
+        position:absolute;
+        /* 距原来的左边 */
+        left:0px;
+        /* 距原来的上边 */
+        top:85px;
+        
+        /* 设置成行内块：就可以设置高和宽度了 */
+        display: inline-block;
+        height: 86px;
+        width: 120px;
+        /* 行高和高度设置一样上下就剧中了 */
+        line-height: 200px;
+        background-image: url(webphoto/beijing0101.png);
+        /* 不平埔只显示一个 */
+        /* 背景图片默认左上角对齐 */
+        background-repeat: no-repeat;
+           /* 背景图片左下对齐 */
+     /* background-position: left bottom; */
+     /* 背景图片右下对齐 */
+     /* background-position: right bottom; */
+     /* 背景图片上中对齐 */
+     /* background-position: center top; */
+     /* 背景图片中的中间对齐 */
+     /* background-position: center center; */
+        /* 将文字离左边给图片让出地方 */
+        padding-left: 32px;
+        background-position: -89px -367px;
+        /* border: 1px solid darkblue; */
+
+    }
+    /* 鼠标移动上后 */
+    .aj05:hover{
+        opacity: 1;
+        /* 背景图片左边对齐 */
+     /* background-position: left bottom; */
+       /* 背景图片xy轴%比对齐 */
+      /* background-position: 0% 6.8%;  */
+      /* 通过xy坐标控制 */
+      background-position: -89px -461px;
+
+
+    }
+    .aj06{
+        opacity: 0.5;
+        position:absolute;
+        /* 距原来的左边 */
+        left:152px;
+        /* 距原来的上边 */
+        top:85px;
+        
+        /* 设置成行内块：就可以设置高和宽度了 */
+        display: inline-block;
+        height: 86px;
+        width: 120px;
+        /* 行高和高度设置一样上下就剧中了 */
+        line-height: 200px;
+        background-image: url(webphoto/beijing0101.png);
+        /* 不平埔只显示一个 */
+        /* 背景图片默认左上角对齐 */
+        background-repeat: no-repeat;
+           /* 背景图片左下对齐 */
+     /* background-position: left bottom; */
+     /* 背景图片右下对齐 */
+     /* background-position: right bottom; */
+     /* 背景图片上中对齐 */
+     /* background-position: center top; */
+     /* 背景图片中的中间对齐 */
+     /* background-position: center center; */
+        /* 将文字离左边给图片让出地方 */
+        padding-left: 32px;
+        background-position: -255px -366px;
+        /* border: 1px solid darkblue; */
+
+    }
+    /* 鼠标移动上后 */
+    .aj06:hover{
+        opacity: 1;
+        /* 背景图片左边对齐 */
+     /* background-position: left bottom; */
+       /* 背景图片xy轴%比对齐 */
+      /* background-position: 0% 6.8%;  */
+      /* 通过xy坐标控制 */
+      background-position: -255px -460px;
+
+
+    }
+    .aj07{
+        opacity: 0.5;
+        position:absolute;
+        /* 距原来的左边 */
+        left:300px;
+        /* 距原来的上边 */
+        top:85px;
+        
+        /* 设置成行内块：就可以设置高和宽度了 */
+        display: inline-block;
+        height: 86px;
+        width: 120px;
+        /* 行高和高度设置一样上下就剧中了 */
+        line-height: 200px;
+        background-image: url(webphoto/beijing0101.png);
+        /* 不平埔只显示一个 */
+        /* 背景图片默认左上角对齐 */
+        background-repeat: no-repeat;
+           /* 背景图片左下对齐 */
+     /* background-position: left bottom; */
+     /* 背景图片右下对齐 */
+     /* background-position: right bottom; */
+     /* 背景图片上中对齐 */
+     /* background-position: center top; */
+     /* 背景图片中的中间对齐 */
+     /* background-position: center center; */
+        /* 将文字离左边给图片让出地方 */
+        padding-left: 32px;
+        background-position: -420px -366px;
+        /* border: 1px solid darkblue; */
+
+    }
+    /* 鼠标移动上后 */
+    .aj07:hover{
+        opacity: 1;
+        /* 背景图片左边对齐 */
+     /* background-position: left bottom; */
+       /* 背景图片xy轴%比对齐 */
+      /* background-position: 0% 6.8%;  */
+      /* 通过xy坐标控制 */
+      background-position: -420px -460px;
+
+
+    }
+    
+   
+
+
+        
+    
+      
+        
+        /* #logo{
+            
+            font-family: "Impact";
+            src: url(sansation_light.woff);
+            color: black;
+            font-size: 40px;
+            font-weight: 900;
+        } */
+
+.top01{
+    margin: 0 auto;
+    width: 100%;
+    height: 30px;   
+    background-color: #393e46;
+    opacity: 0.7;
+    
+
+} 
+/* 去掉列表的默认样式 */
+.tn-main ul li{
+    list-style: none;
+    /* font: 15px 宋体; */
+    /* margin-top: 15px; */
+    
+}
+/* a标签字体颜色和下划线去掉 */
+a{
+    /* 去掉下划线 */
+    text-decoration: none;
+    color:#ecf0f1;
+}
+
+/* 设置顶部导航栏的通栏盒子 */
+/* .tnn-main{ */
+/* 边框   上 */
+/* border-top: 50px solid saddlebrown; */
+/* 边框   下 */
+/* border-bottom:1px solid darkcyan; */
+/* 盒子高度 */
+/* height: 10px; */
+/* 行高  高度：行高和盒子高度都是一样的就保证了文字内容是剧中的 */
+/* line-height: 42px; */
+/* } */
+/* 设置版心盒子剧中对齐 */
+.tn-main{
+
+    position: absolute;
+/* 外边距设置 0 auto 就是盒子剧中对齐，但是必须设置宽度                                            标签横向距离 */
+/* top: -50%; */
+/* margin:0 60px; */
+/* 宽度 */
+/* width:1000px; */
+/* position: absolute; */
+/* height: 200px; */
+/* width: 200px; */
+background-position: 50% 50%;
+   
+    
+
+}
+/* 设置左侧的网站导航 */
+
+.tn-nav{
+    padding:0 100px;
+/* 浮动 左 */
+float: left;
+}
+
+/* 想要li标签横着一行就要必须把他浮动起来 */
+.tn-nav li{
+
+float:left;
+
+
+/* 想每个li标签之间有间隙可设置内边距或外边距 */
+/* 内边距   上下0  左右15 */
+padding:0 20px;
+height: 30px;
+line-height: 30px
+
+}
+/* 鼠标移上背景色和字颜色变 */
+/* hover:是鼠标移动上时 */
+/* 加上tn-nav li:hover a这段代码是因为里标签里有a标签所以设置li标签字体颜色时设置不上所以要安都指引下a标签 */
+.tn-nav li:hover,.tn-nav li:hover a{
+/* 因为有hover所以这里设置的是鼠标移动上的背景颜色 */
+background-color: cornflowerblue;
+/* border-radius: 20px; */
+/* li标签里有a标签想设置鼠标移动上时的自体验的要单独指引下a标签如上:.tn-nav li:hover a */
+/* color: #34495e; */
+border-radius: 20px ;
+height: 30px;
+line-height: 30px
+}
+/* 设置右侧的网站导航 */
+.tn-persion{
+float: right;
+}
+.tn-persion > li{
+/* 让li标签在一行显示就要让他浮动 */
+/* 浮动 右 */
+float: left;
+/* 让li标签间距拉开 */
+/* 内边距   上下0  左右15 */
+padding:0 20px;
+height: 30px;
+line-height: 30px
+
+}
+/* 这段代码与中>是只给它的子元素用 还有tn-persion > li > a:hover这段代码也和上边的有所不同 */
+.tn-persion > li:hover,.tn-nav > li > a:hover{
+/* 因为有hover所以这里设置的是鼠标移动上的背景颜色 */
+background-color:cornflowerblue;
+/* li标签里有a标签想设置鼠标移动上时的自体验的要单独指引下a标签如上:.tn-nav li:hover a */
+/* color: #34495e;    */
+border-color: transparent;
+border-radius: 20px;
+}
+/* 微博弹出层的处理设置 */
+.weibo-box{ 
+/* 先让下拉的字隐藏起来 */
+display: none;
+/* 想要弹出的框不影响别的文档位置就要设置绝对定位这样就有的跟随性，文档留在哪打开他就在那 */
+/* 绝对定位弹出的层:放置对默认的文档流进行干扰 */
+position: absolute;
+} 
+/* 意思是鼠标移动到weibo  weibo-box就有了display: block;显示的设置 */
+.weibo:hover .weibo-box{
+display: block;
+/* margin: 0 auto; */
+/* 在绝对定位后也可以移动：这里用调整外边距的方法，（去掉继承父元素的左侧位置） */
+margin-left:-20px;
+
+}
+/* 弹出列表的边框设置 */
+.weibo-box li a{
+    /* 在绝对定位后也可以移动：这里用调整外边距的方法，（去掉继承父元素的左侧位置） */
+/* margin-left:-50px; */
+    
+    /* 让边框是圆角 */
+border-radius: 20px;
+/* border: 1px solid darkgoldenrod; */
+ /* 去掉上边框 */
+/* border-top: none; */
+width: auto;
+height: 20px;
+/* 行宽 */
+line-height: 20px;
+/* 在绝对定位后也可以移动：这里用调整外边距的方法，（去掉继承父元素的左侧位置） */
+/* margin-left:-50px; */
+/* 内边距 */
+padding: 0 20px;
+
+margin: 0 auto;
+
+
+
+}
+/* 将a标签宽度和父li标签的宽度一致就将a标签设置成块状元素 */
+.weibo-box a {
+display: block;  
+} 
+/* 当鼠标移动到wibo-box的li标签或weibo-box的li标签的a标签 */
+.weibo-box li:hover, .weibo-box li a:hover{
+/* 因为有hover所以这里设置的是鼠标移动上的背景颜色 */
+background-color: cornflowerblue;
+/* li标签里有a标签想设置鼠标移动上时的自体验的要单独指引下a标签如上:.tn-nav li:hover a */
+/* color: #7bff00;  */
+    /* 让边框是圆角 */
+    border-radius: 20px;
+    
+}
+
+
+

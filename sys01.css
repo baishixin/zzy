@@ -1,0 +1,277 @@
+@charset "UTF-8";
+html,body,div,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,a
+    {
+        /* 将原有的外边距和内边距改成0  */
+        margin:0;
+        padding:0;
+    }
+
+
+.aj01{
+  
+    
+    /* 设置成行内块：就可以设置高和宽度了 */
+    /* display: inline-block; */
+    height: 200px;
+    width: 400px;
+    /* 行高和高度设置一样上下就剧中了 */
+    /* line-height: 400px; */
+    background-image: url(webphoto/001.jpg);
+    
+
+    /* 不平埔只显示一个 */
+    /* 背景图片默认左上角对齐 */
+    background-repeat: no-repeat;
+       /* 背景图片左下对齐 */
+ /* background-position: left bottom; */
+ /* 背景图片右下对齐 */
+ /* background-position: right bottom; */
+ /* 背景图片上中对齐 */
+ /* background-position: center top; */
+ /* 背景图片中的中间对齐 */
+ background-position: center center;
+ 
+
+}
+.aj02{
+    
+    /* 距原来的左边 */
+    left:0px;
+    /* 距原来的上边 */
+    top:0px;
+    
+    /* 设置成行内块：就可以设置高和宽度了 */
+    /* display: inline-block; */
+    height: 500px;
+    width: 500px;
+    /* 行高和高度设置一样上下就剧中了 */
+    /* line-height: 400px; */
+    
+    background-image: url(webphoto/002.jpg);
+    
+
+    /* 不平埔只显示一个 */
+    /* 背景图片默认左上角对齐 */
+    background-repeat: no-repeat;
+       /* 背景图片左下对齐 */
+ /* background-position: left bottom; */
+ /* 背景图片右下对齐 */
+ /* background-position: right bottom; */
+ /* 背景图片上中对齐 */
+ /* background-position: center top; */
+ /* 背景图片中的中间对齐 */
+ background-position: center center;
+ 
+
+}
+.aj03{
+    
+    /* 距原来的左边 */
+    left:0px;
+    /* 距原来的上边 */
+    top:0px;
+    
+    /* 设置成行内块：就可以设置高和宽度了 */
+    /* display: inline-block; */
+    height: 500px;
+    width: 500px;
+    /* 行高和高度设置一样上下就剧中了 */
+    /* line-height: 400px; */
+    
+    background-image: url(webphoto/003.jpg);
+    
+
+    /* 不平埔只显示一个 */
+    /* 背景图片默认左上角对齐 */
+    background-repeat: no-repeat;
+       /* 背景图片左下对齐 */
+ /* background-position: left bottom; */
+ /* 背景图片右下对齐 */
+ /* background-position: right bottom; */
+ /* 背景图片上中对齐 */
+ /* background-position: center top; */
+ /* 背景图片中的中间对齐 */
+ background-position: center center;
+ 
+
+}
+.aj04{
+    
+    /* 距原来的左边 */
+    left:0px;
+    /* 距原来的上边 */
+    top:0px;
+    
+    /* 设置成行内块：就可以设置高和宽度了 */
+    /* display: inline-block; */
+    height: 500px;
+    width: 500px;
+    /* 行高和高度设置一样上下就剧中了 */
+    /* line-height: 400px; */
+   
+    background-image: url(webphoto/004.jpg);
+    
+    /* 不平埔只显示一个 */
+    /* 背景图片默认左上角对齐 */
+    background-repeat: no-repeat;
+       /* 背景图片左下对齐 */
+ /* background-position: left bottom; */
+ /* 背景图片右下对齐 */
+ /* background-position: right bottom; */
+ /* 背景图片上中对齐 */
+ /* background-position: center top; */
+ /* 背景图片中的中间对齐 */
+ background-position: center center;
+ 
+
+}
+.aj05{
+    
+    /* 距原来的左边 */
+    left:0px;
+    /* 距原来的上边 */
+    top:0px;
+    
+    /* 设置成行内块：就可以设置高和宽度了 */
+    /* display: inline-block; */
+    height: 500px;
+    width: 500px;
+    /* 行高和高度设置一样上下就剧中了 */
+    /* line-height: 400px; */
+    
+    background-image: url(webphoto/005.jpg);
+    
+    /* 不平埔只显示一个 */
+    /* 背景图片默认左上角对齐 */
+    background-repeat: no-repeat;
+       /* 背景图片左下对齐 */
+ /* background-position: left bottom; */
+ /* 背景图片右下对齐 */
+ /* background-position: right bottom; */
+ /* 背景图片上中对齐 */
+ /* background-position: center top; */
+ /* 背景图片中的中间对齐 */
+ background-position: center center;
+ 
+
+}
+.aj06{
+    
+    /* 距原来的左边 */
+    left:0px;
+    /* 距原来的上边 */
+    top:0px;
+    
+    /* 设置成行内块：就可以设置高和宽度了 */
+    /* display: inline-block; */
+    height: 500px;
+    width: 500px;
+    /* 行高和高度设置一样上下就剧中了 */
+    /* line-height: 400px; */
+    
+    background-image: url(webphoto/006.jpg);
+    
+    /* 不平埔只显示一个 */
+    /* 背景图片默认左上角对齐 */
+    background-repeat: no-repeat;
+       /* 背景图片左下对齐 */
+ /* background-position: left bottom; */
+ /* 背景图片右下对齐 */
+ /* background-position: right bottom; */
+ /* 背景图片上中对齐 */
+ /* background-position: center top; */
+ /* 背景图片中的中间对齐 */
+ background-position: center center;
+ 
+
+}
+.aj08{
+    
+    /* 距原来的左边 */
+    left:0px;
+    /* 距原来的上边 */
+    top:0px;
+    
+    /* 设置成行内块：就可以设置高和宽度了 */
+    /* display: inline-block; */
+    height: 500px;
+    width: 500px;
+    /* 行高和高度设置一样上下就剧中了 */
+    /* line-height: 400px; */
+    
+    background-image: url(webphoto/007.jpg);
+    
+    /* 不平埔只显示一个 */
+    /* 背景图片默认左上角对齐 */
+    background-repeat: no-repeat;
+       /* 背景图片左下对齐 */
+ /* background-position: left bottom; */
+ /* 背景图片右下对齐 */
+ /* background-position: right bottom; */
+ /* 背景图片上中对齐 */
+ /* background-position: center top; */
+ /* 背景图片中的中间对齐 */
+ background-position: center center;
+ 
+
+}
+.aj09{
+    
+    /* 距原来的左边 */
+    left:0px;
+    /* 距原来的上边 */
+    top:0px;
+    
+    /* 设置成行内块：就可以设置高和宽度了 */
+    /* display: inline-block; */
+    height: 500px;
+    width: 500px;
+    /* 行高和高度设置一样上下就剧中了 */
+    /* line-height: 400px; */
+    
+    background-image: url(webphoto/008.jpg);
+    
+    /* 不平埔只显示一个 */
+    /* 背景图片默认左上角对齐 */
+    background-repeat: no-repeat;
+       /* 背景图片左下对齐 */
+ /* background-position: left bottom; */
+ /* 背景图片右下对齐 */
+ /* background-position: right bottom; */
+ /* 背景图片上中对齐 */
+ /* background-position: center top; */
+ /* 背景图片中的中间对齐 */
+ background-position: center center;
+ 
+
+}
+.aj10{
+    
+    /* 距原来的左边 */
+    left:0px;
+    /* 距原来的上边 */
+    top:0px;
+    
+    /* 设置成行内块：就可以设置高和宽度了 */
+    /* display: inline-block; */
+    height: 500px;
+    width: 500px;
+    /* 行高和高度设置一样上下就剧中了 */
+    /* line-height: 400px; */
+    
+    background-image: url(webphoto/009.jpg);
+
+    /* 不平埔只显示一个 */
+    /* 背景图片默认左上角对齐 */
+    background-repeat: no-repeat;
+       /* 背景图片左下对齐 */
+ /* background-position: left bottom; */
+ /* 背景图片右下对齐 */
+ /* background-position: right bottom; */
+ /* 背景图片上中对齐 */
+ /* background-position: center top; */
+ /* 背景图片中的中间对齐 */
+ background-position: center center;
+ 
+
+}
